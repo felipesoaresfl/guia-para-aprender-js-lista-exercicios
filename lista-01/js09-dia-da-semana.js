@@ -1,7 +1,7 @@
 /**
  * Faça um Programa que dado um número de entrada,
  * exiba o dia correspondente da semana.
- * 
+ *
  * ENTRADA      SAÍDA
  * 1            Domingo
  * 2            Segunda
@@ -12,9 +12,18 @@
  */
 
 // Entrada
-var entrada = 1
+var entrada = 1;
 
 // implemente aqui o condicional para retornar o boolean (true/false) com base na entrada
-var resultado = 'Domingo'
 
-console.log(resultado)
+const RESULTADO = [
+  "Domingão",
+  "Segunda",
+  "Terça",
+  "Quarta",
+  "Quinta",
+  "Sexta",
+  "Sábado",
+];
+
+console.log(RESULTADO[entrada - 1]);
