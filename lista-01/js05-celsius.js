@@ -1,7 +1,7 @@
 /**
- * Faça um Programa que peça a temperatura em Fahrenheit, 
- * transforme e mostre graus Celsius. 
- * 
+ * Faça um Programa que peça a temperatura em Fahrenheit,
+ * transforme e mostre graus Celsius.
+ *
  * ENTRADA              SAÍDA
  * 102                  39
  * 89                   32
@@ -9,9 +9,9 @@
  */
 
 // Entrada
-var fahrenheit = 89
+var fahrenheit = 70;
 
 // Altere a expressão abaixo para converter Fahrenheit em Celsius
-var celsius = 32
+var celsius = (fahrenheit - 32) / 1.8;
 
-console.log(celsius)
+console.log(celsius.toFixed(0));
