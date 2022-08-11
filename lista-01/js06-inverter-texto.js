@@ -1,16 +1,18 @@
 /**
- * Faça um Programa que inverta um texto. 
- * 
+ * Faça um Programa que inverta um texto.
+ *
  * ENTRADA          SAÍDA
  * abacate          etacaba
  * 12345            54321
- * 
+ *
  */
 
 // Entrada
-var entrada = 'abacate'
+var entrada = 12345;
+
+entrada = String(entrada);
 
 // gere a variável invertido de forma a transforma a entrada na saída esperada
-var invertido = '?'
+var invertido = entrada.split("").reverse().join("");
 
-console.log(invertido)
+console.log(invertido);
