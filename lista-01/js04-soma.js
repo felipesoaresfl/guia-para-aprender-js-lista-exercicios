@@ -1,7 +1,7 @@
 /**
  * Faça um Programa que imprima a soma de dois numeros (inteiros ou com casas decimais).
  * Se os valores de entrada não forem números válidos, imprima uma mensagem de aviso.
- * 
+ *
  * ENTRADA                           SAÍDA
  *    10 e 20                        30
  *    40.5 e 1.5                     42
@@ -16,10 +16,19 @@
  */
 
 // Entrada
-var n1 = 'A'
-var n2 = 40
+var n1 = 10;
+var n2 = 20;
+var resultado = 0;
+//processamento
+
+if (typeof n1 != "number") {
+  resultado = `'${n1}' não é um número`;
+} else if (typeof n2 != "number") {
+  resultado = `'${n1}' não é um número`;
+} else {
+  resultado = n1 + n2;
+}
 
 // Saída
-var resultado = '?'
 
-console.log(resultado)
+console.log(resultado);
