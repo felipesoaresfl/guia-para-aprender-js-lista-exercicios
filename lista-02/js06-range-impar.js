@@ -11,8 +11,7 @@ var range = [1, 150];
 
 var impares = [];
 
-for (var i = range[0]; i < range[1]; i++) {
-  console.log(i);
+for (let i = range[0]; i < range[1]; i++) {
   if (i % 2 > 0) {
     impares.push(i);
   }

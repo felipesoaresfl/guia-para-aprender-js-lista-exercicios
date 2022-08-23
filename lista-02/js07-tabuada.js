@@ -18,7 +18,7 @@
 // Entrada
 var entrada = 15;
 
-for (i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
   var result = entrada * i;
   console.log("👉 " + entrada + " X " + i + " = " + result);
 }

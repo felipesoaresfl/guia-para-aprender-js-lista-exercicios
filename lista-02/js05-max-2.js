@@ -4,7 +4,7 @@
  * ENTRADA              SAÍDA
  * [1,3,5,7,8,10,3]      8
  * [1,1,40]              1
- * [40,42,1,0,-10]      40
+ * [40,42,1,0,-10]      42
  *
  * IMPORTANTE:
  * Não usar sort
@@ -17,7 +17,7 @@ var entrada = [40, 42, 1, 0, -10];
 var segundoMaior = 40;
 
 var maior = 0;
-for (var i in entrada) {
+for (let i in entrada) {
   if (entrada[i] > maior) {
     maior = entrada[i];
     var j = i;
@@ -26,7 +26,7 @@ for (var i in entrada) {
 entrada.splice(j, 1);
 
 var segundoMaior = 0;
-for (var i of entrada) {
+for (let i of entrada) {
   if (i > segundoMaior) {
     segundoMaior = i;
   }

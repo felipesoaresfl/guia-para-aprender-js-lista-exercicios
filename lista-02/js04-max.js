@@ -10,7 +10,7 @@
 // Entrada
 var entrada = [1, 1, 40];
 
-var maior = 0;
+var maior = Number.MIN_SAFE_INTEGER;
 
 for (var i of entrada) {
   if (i > maior) {
